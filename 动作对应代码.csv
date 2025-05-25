@@ -1,0 +1,64 @@
+Command	Syntax	Notes
+		
+Set target volume  	V########	"######## - Desired Volume Target in nL.
+Value can be entered with or without decimal
+point (Range: 0 to 999999.9)"
+Set delivery rate 	R######## 	"######## - Desired Delivery Rate in nL/
+sec or nL/min. Units are set with S and M
+commands. Value can be entered with or
+without decimal point (Range: 0 to 999999.9)"
+Set active pump to infuse direction 	I	
+Set active pump to withdraw direction 	W	
+Start delivery from stopped condition or resume from paused	G	
+Halt volume delivery (STOP) 	H	Cancels delivery in process
+Pause delivery  	U	Pauses delivery in process
+Set delivery units to nL/sec 	S	
+Set delivery units to nL/min 	M	
+Set active pump 	L#	# is between 1 and 2
+Set mode to non-grouped 	N	
+Set mode to grouped 	P	
+Set mode to disabled 	D	
+Select syringe  	T#	"# Is between 1 and 12. 1¨C9 for types 1¨C9,
+10¨C12 for A, B and C."
+Set motor drive to max load 	BT	
+Set motor drive to smooth 	BS	
+Set volume counter mode to Delivered 	EN	
+Set volume counter mode to Remaining 	EI	
+Display target volume  	?V	"Response: Target Volume = 10000.0nL
+OK"
+Display volume counter  	?C	"Response: Volume Counter = 1000.0?L
+OK"
+Display motor drive option  	?B	"Response: Smooth Drive (Max Load Drive)
+OK"
+Display motor counter mode  	?E	"Response: Delivered Volume
+(Remaining Volume)
+OK"
+Display pump mode  	?M	"Response: Mode: Non-Grouped
+(Mode: Grouped, Mode: Disabled)
+OK"
+Display syringe type  	?S	"Response: Type 8, 100.0uL, 60.0
+OK"
+Display direction type  	?D	"Response: Direction: Infuse
+(Direction: Withdraw)
+OK"
+Display rate units  	?U	"Response: Rate Units: nL/min
+(Rate Units: nL/sec)
+OK"
+Display run mode  	?G	"Response: Motor State: Stopped
+(Motor State: Running, Motor State: Paused)
+OK"
+Pause script execution  	A####	"#### is length of pause in seconds/100
+Response: PAUSING (while in pause)
+OK (when finished pause)"
+Beep  	F####	"#### is length of beep in seconds/100
+Response: BEEP (while beeping)
+OK (when finished beeping)"
+Kill command  	Z	"Ends current command and cancels any
+pending commands"
+		
+		
+		
+		
+		
+		
+		
