@@ -89,4 +89,4 @@ install.packages(c("shiny", "serial"))
 
 ## 许可证
 
-MIT
+GNU General Public License v3.0
